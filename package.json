@@ -1,0 +1,29 @@
+{
+  "name": "fig-wasp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "run": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doytch/fig-wasp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doytch/fig-wasp/issues"
+  },
+  "homepage": "https://github.com/doytch/fig-wasp#readme",
+  "dependencies": {
+    "camelcase": "^7.0.0",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
