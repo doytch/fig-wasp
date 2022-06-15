@@ -10,5 +10,8 @@ const fetcher = new FigmaFetcher({
   file_key: "LN55Z8FlquGwiteZ91aPVY",
 });
 
-const groups = await fetcher.pages();
-console.log(groups);
+// const groups = await fetcher.pages();
+// console.log(groups);
+
+const tokens = await fetcher.tokens();
+console.log(tokens);
